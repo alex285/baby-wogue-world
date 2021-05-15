@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/baby-wogue-world",
+  //pathPrefix: "/baby-wogue-world",
   siteMetadata: {
     title: "babywogue-world",
   },
