@@ -1,4 +1,7 @@
-import * as React from "react"
+import * as React from "react";
+import Container from '@material-ui/core/Container';
+import Box from '@material-ui/core/Box';
+
 
 // styles
 const pageStyles = {
@@ -29,23 +32,27 @@ const codeStyles = {
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <title>Home Page</title>
-      <h1 style={headingStyles}>
-        Welcome
-        <br />
-        <span style={headingAccentStyles}>— to baby WOGUE World!! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
-      </h1>
-      <p style={paragraphStyles}>
-        A place of <code style={codeStyles}>happiness & death!</code> {" "}
-        <span role="img" aria-label="smiley emoji">
-        😥 
-        </span>
-      </p>
-    </main>
+    <Container maxWidth="sm">
+      <Box my={4}>
+        <main style={pageStyles}>
+          <title>Home Page</title>
+          <h1 style={headingStyles}>
+            Welcome
+            <br />
+            <span style={headingAccentStyles}>— to baby WOGUE World!! </span>
+            <span role="img" aria-label="Party popper emojis">
+              🎉🎉🎉
+            </span>
+          </h1>
+          <p style={paragraphStyles}>
+            A place of <code style={codeStyles}>happiness & death!</code> {" "}
+            <span role="img" aria-label="smiley emoji">
+            😥 
+            </span>
+          </p>
+        </main>
+      </Box>
+    </Container>
   )
 }
 

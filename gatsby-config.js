@@ -7,6 +7,7 @@ module.exports = {
     "gatsby-plugin-emotion",
     "gatsby-plugin-image",
     "gatsby-plugin-mdx",
+    "gatsby-plugin-material-ui",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
@@ -25,5 +26,14 @@ module.exports = {
       },
       __key: "pages",
     },
+    /*{
+      resolve: "gatsby-plugin-material-ui",
+      options: {
+        stylesProvider: {
+          injectFirst: true,
+        },
+      },      
+    },
+    "gatsby-plugin-styled-components",*/   
   ],
 };
