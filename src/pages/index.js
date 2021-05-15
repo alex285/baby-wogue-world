@@ -50,6 +50,9 @@ const IndexPage = () => {
             😥 
             </span>
           </p>
+          <p>     
+            <a href="https://github.com/alex285/baby-wogue-world">On Github</a>
+          </p>
         </main>
       </Box>
     </Container>
