@@ -26,6 +26,12 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        defaultLayouts: { default: path.resolve('./src/components/layout.js') },
+      },
+    },
     /*{
       resolve: "gatsby-plugin-material-ui",
       options: {
